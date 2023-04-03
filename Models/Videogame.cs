@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace net_ef_videogame
+namespace net_ef_videogame.Models
 {
     public class Videogame
     {
@@ -16,6 +16,6 @@ namespace net_ef_videogame
         public DateTime UpdatedAt { get; set; }
 
         public long SoftwareHouseId { get; set; }
-        public SoftwareHouse? SoftwareHouse { get; set; }        
+        public SoftwareHouse? SoftwareHouse { get; set; }
     }
 }
